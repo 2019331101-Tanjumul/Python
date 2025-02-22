@@ -45,5 +45,10 @@ print(name)
 #use of input function to input data 
 
 name = input("what is your name ? ")
-age = input("What is your age now ?")
-print(f"Hello {name}, You are {age} years old") #we will need f to insert variables in the string of the print output
+age = int(input("What is your age now ? "))
+#age = int(age)
+age = age +1 
+
+print(f"Hello {name}, happy Birthday , You are {age} years old") #we will need f to insert variables in the string of the print output
+
+
